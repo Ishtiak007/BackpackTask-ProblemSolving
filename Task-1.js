@@ -1,9 +1,12 @@
+// 1.Task: Array Filtering and Mapping
+// Create an array of objects, each representing a person with properties like name, age, and gender. Write a function to filter out all females and then map the remaining people to an array of names. Print the final result.
+
 const people = [
-  { name: "John", age: 30, gender: "male" },
-  { name: "Jane", age: 25, gender: "female" },
-  { name: "Sam", age: 40, gender: "male" },
-  { name: "Anna", age: 22, gender: "female" },
-  { name: "Tom", age: 35, gender: "male" },
+  { name: "Ishtiak", age: 30, gender: "male" },
+  { name: "Sayma", age: 25, gender: "female" },
+  { name: "Ruhit", age: 40, gender: "male" },
+  { name: "Fahim", age: 22, gender: "female" },
+  { name: "Rafsan", age: 35, gender: "male" },
 ];
 
 const filterAndMapNames = (arr) => {
